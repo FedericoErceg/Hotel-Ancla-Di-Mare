@@ -160,6 +160,16 @@ body {
   color: white;
 }
 
+.main-sec-row {
+  border: solid #ffdfba 1px;
+  background-color: #ffe6c9;
+}
+
+.main-carousel {
+  max-height: 400px;
+  max-width: 700px;
+}
+
 h1 {
   color: #f2f2f2;
 }
