@@ -138,6 +138,11 @@
   margin-top: 35;
 }
 
+body {
+  background-color: #ffedd8;
+  background-image: url(../scss/img/backgrund\ body.png);
+}
+
 .fondo-img {
   background-image: url(../scss/img/backgound\ family\ dog\ achicada\ a\ 1000px.jpg);
   background-repeat: none;
@@ -172,6 +177,10 @@ h3 {
 .index-btn:hover {
   background-color: #f0d0a6;
   color: #fff;
+}
+
+.img-pet img {
+  max-height: 600px;
 }
 
 /*# sourceMappingURL=styles.css.map */
