@@ -1,0 +1,21 @@
+.fondo-img{
+    background-image: url(../scss/img/backgound\ family\ dog\ achicada\ a\ 1000px.jpg);
+    background-repeat: none;
+    height: 850px;
+    width: 1915px;
+}
+.index-title{
+    padding-right: 100px;
+    padding-top: 15px;
+}
+@mixin prop-nav($size, $color, $font) { 
+    font-size: $size;
+    color: $color;
+    font-family: $font;
+    text-decoration: none;
+}
+.index-nav-link{
+    text-decoration: none;
+    color: white;
+}
+
