@@ -9,21 +9,23 @@
     <link rel="shortcut icon" href="./scss/img/logo-1.png" type="image/x-icon">
     <title>Pet Health</title>
 </head>
-<body>
+<body class="body-index">
     <div class="fondo-img">
-        <div class="container g-0">
+        <div class="container-fluid">
             <header class="index-header row p-4">
-                <div class="index-img mb-5 col-6">
-                    <a href="#"><img src="" alt="index-logo-pethealt"></a>
+                <div class="index-img mb-5 d-flex justify-content-start align-items-start col-5">
+                    <a href="./index.html"><img src="./scss/img/logo-1.png" height="215px" width="215px" alt="index-logo-pethealt"></a>
                 </div>
-                <nav class="index-nav col-6 mb-5 d-flex justify-content-around">
-                    <ul class="ms-4">
-                        <button class="index-btn nav-btn btn btn-md me-3" type="button"><a href="#" class="index-nav-link proposito">Proposito</a>
-                        <button class="index-btn nav-btn btn btn-md me-3" type="button"><a href="#" class="index-nav-link planes">Planes</a></button>
-                        <button class="index-btn nav-btn btn btn-md me-3" type="button"><a href="#" class="index-nav-link prestadores">Prestadores</a></button>
-                        <button class="index-btn nav-btn btn btn-md me-3" type="button"><a href="#" class="index-nav-link contacto">Contacto</a></button>
-                    </ul>
-                </nav>
+                <div class="col-7 mb-5 d-flex justify-content-start align-items-start">
+                    <nav class="index-nav d-flex justify-content-around">
+                        <ul class="ms-4">
+                            <button class="index-btn nav-btn btn btn-md me-3" type="button"><a href="./paginas/proposito.html" class="index-nav-link proposito">Proposito</a>
+                                <button class="index-btn nav-btn btn btn-md me-3" type="button"><a href="./paginas/prestadores.html" class="index-nav-link prestadores">Prestadores</a></button>
+                            <button class="index-btn nav-btn btn btn-md me-3" type="button"><a href="./paginas/planes.html" class="index-nav-link planes">Planes</a></button>
+                            <button class="index-btn nav-btn btn btn-md me-3" type="button"><a href="./paginas/contacto.html" class="index-nav-link contacto">Contacto</a></button>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="index-title row mt-4 text-center flex-column aling-items-center">
                     <div class="col-12">
                         <h1>La mejor obra social para aimales</h1>
@@ -52,30 +54,7 @@
                     <p style="max-width: 50%;">Nuestras mascotas son una parte importante de la familia y entendemos que la medicina preventiva es la única y mejor manera de cuidarlos. La medicina preventiva es la correcta planificación junto con el veterinario de las necesidades específicas de nuestra mascota para el futuro de manera de mantenerlas saludables. Esto es de suma importancia ya que con la buena gestión de la medicina preventiva evitamos que nuestra mascota sufra alguna patología para acudir al veterinario. Nos ayuda a una detección temprana de posibles enfermedades.</p>
                 </section>
                 <section>
-                    <div id="carouselExampleFade" class="main-carousel carousel slide carousel-fade">
-                        <div class="carousel-inner">
-                          <div class="d-flex flex-row carousel-item active">
-                            <img src="./scss/img/icono hospital.png" class="d-block w-100" alt="...">
-                            <img src="./scss/img/icono guardia.png" class="d-block w-100" alt="...">
-                            <img src="./scss/img/icono cirugia.png" class="d-block w-100" alt="...">
-                            <img src="./scss/img/icono internacion.png" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                    
                 </section>
             </div>
         </main>
