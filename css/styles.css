@@ -146,8 +146,8 @@ body {
 .fondo-img {
   background-image: url(../scss/img/backgound\ family\ dog\ achicada\ a\ 1000px.jpg);
   background-repeat: none;
-  height: 850px;
-  width: 1915px;
+  min-height: 850px;
+  max-width: 1915px;
 }
 
 .index-title {
