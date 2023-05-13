@@ -1,5 +1,8 @@
-body{
+.body-index{
     background-color: $primary-color;
     background-image: url(../scss/img/background-general.png);
     background-repeat: none;
+}
+body{
+    background-color: $primary-color;
 }
