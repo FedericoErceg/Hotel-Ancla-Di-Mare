@@ -1,6 +1,6 @@
 .main-sec-row{
-    border: solid darken($color: bisque, $amount: 2) 1px;
-    background-color: lighten($color: bisque, $amount: 1);
+    border: solid darken($color: $primary-color, $amount: 10) 1px;
+    background-color: darken($color: $primary-color, $amount: 3);
 }
 
 .main-carousel{

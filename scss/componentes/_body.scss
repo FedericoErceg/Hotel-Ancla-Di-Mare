@@ -1,4 +1,5 @@
 body{
-    background-color: lighten($color: bisque, $amount: 4);
-    background-image: url(../scss/img/backgrund\ body.png);
+    background-color: $primary-color;
+    background-image: url(../scss/img/background-general.png);
+    background-repeat: none;
 }

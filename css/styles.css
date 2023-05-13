@@ -139,15 +139,16 @@
 }
 
 body {
-  background-color: #ffedd8;
-  background-image: url(../scss/img/backgrund\ body.png);
+  background-color: #f2f2f2;
+  background-image: url(../scss/img/background-general.png);
+  background-repeat: none;
 }
 
 .fondo-img {
   background-image: url(../scss/img/backgound\ family\ dog\ achicada\ a\ 1000px.jpg);
   background-repeat: none;
   min-height: 850px;
-  max-width: 1915px;
+  max-width: 1913px;
 }
 
 .index-title {
@@ -161,8 +162,8 @@ body {
 }
 
 .main-sec-row {
-  border: solid #ffdfba 1px;
-  background-color: #ffe6c9;
+  border: solid #d9d9d9 1px;
+  background-color: #eaeaea;
 }
 
 .main-carousel {
@@ -172,10 +173,12 @@ body {
 
 h1 {
   color: #f2f2f2;
+  font-size: 48px;
 }
 
 h3 {
   color: #c4ae8e;
+  font-size: 32px;
 }
 
 .index-btn {
@@ -187,6 +190,11 @@ h3 {
 .index-btn:hover {
   background-color: #f0d0a6;
   color: #fff;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .img-pet img {
