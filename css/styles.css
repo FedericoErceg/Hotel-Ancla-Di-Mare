@@ -39,103 +39,193 @@
 }
 
 .w-1 {
-  width: 3.5;
+  width: 3.5px;
 }
 
 .w-2 {
-  width: 7;
+  width: 7px;
 }
 
 .w-3 {
-  width: 10.5;
+  width: 10.5px;
 }
 
 .w-4 {
-  width: 14;
+  width: 14px;
 }
 
 .w-5 {
-  width: 17.5;
+  width: 17.5px;
 }
 
 .w-6 {
-  width: 21;
+  width: 21px;
 }
 
 .w-7 {
-  width: 24.5;
+  width: 24.5px;
 }
 
 .w-8 {
-  width: 28;
+  width: 28px;
 }
 
 .w-9 {
-  width: 31.5;
+  width: 31.5px;
 }
 
 .w-10 {
-  width: 35;
+  width: 35px;
+}
+
+.w-1 {
+  width: 3.5px;
+}
+
+.w-2 {
+  width: 7px;
+}
+
+.w-3 {
+  width: 10.5px;
+}
+
+.w-4 {
+  width: 14px;
+}
+
+.w-5 {
+  width: 17.5px;
+}
+
+.w-6 {
+  width: 21px;
+}
+
+.w-7 {
+  width: 24.5px;
+}
+
+.w-8 {
+  width: 28px;
+}
+
+.w-9 {
+  width: 31.5px;
+}
+
+.w-10 {
+  width: 35px;
 }
 
 .p-6 {
-  padding: 21;
+  padding: 21px;
 }
 
 .p-7 {
-  padding: 24.5;
+  padding: 24.5px;
 }
 
 .p-8 {
-  padding: 28;
+  padding: 28px;
 }
 
 .p-9 {
-  padding: 31.5;
+  padding: 31.5px;
 }
 
 .p-10 {
-  padding: 35;
+  padding: 35px;
+}
+
+.px-6 {
+  padding-right: 21px;
+  padding-left: 21px;
+}
+
+.px-7 {
+  padding-right: 24.5px;
+  padding-left: 24.5px;
+}
+
+.px-8 {
+  padding-right: 28px;
+  padding-left: 28px;
+}
+
+.px-9 {
+  padding-right: 31.5px;
+  padding-left: 31.5px;
+}
+
+.px-10 {
+  padding-right: 35px;
+  padding-left: 35px;
 }
 
 .m-6 {
-  margin: 21;
+  margin: 21px;
 }
 
 .m-7 {
-  margin: 24.5;
+  margin: 24.5px;
 }
 
 .m-8 {
-  margin: 28;
+  margin: 28px;
 }
 
 .m-9 {
-  margin: 31.5;
+  margin: 31.5px;
 }
 
 .m-10 {
-  margin: 35;
+  margin: 35px;
+}
+
+.mx-6 {
+  margin-right: 21px;
+  margin-left: 21px;
+}
+
+.mx-7 {
+  margin-right: 24.5px;
+  margin-left: 24.5px;
+}
+
+.mx-8 {
+  margin-right: 28px;
+  margin-left: 28px;
+}
+
+.mx-9 {
+  margin-right: 31.5px;
+  margin-left: 31.5px;
+}
+
+.mx-10 {
+  margin-right: 35px;
+  margin-left: 35px;
 }
 
 .mt-6 {
-  margin-top: 21;
+  margin-top: 21px;
 }
 
 .mt-7 {
-  margin-top: 24.5;
+  margin-top: 24.5px;
 }
 
 .mt-8 {
-  margin-top: 28;
+  margin-top: 28px;
 }
 
 .mt-9 {
-  margin-top: 31.5;
+  margin-top: 31.5px;
 }
 
 .mt-10 {
-  margin-top: 35;
+  margin-top: 35px;
 }
 
 body {
