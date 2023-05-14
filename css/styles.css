@@ -300,4 +300,16 @@ a {
   max-height: 600px;
 }
 
+.svg-icon {
+  width: 60px;
+  height: 60px;
+  color: black;
+}
+
+.svg-icon-contact {
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+
 /*# sourceMappingURL=styles.css.map */

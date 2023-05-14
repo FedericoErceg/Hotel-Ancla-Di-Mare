@@ -1,0 +1,7 @@
+.svg-icon{
+    @include svg-icon( 60px, black)
+}
+
+.svg-icon-contact{
+    @include svg-icon(30px, black)
+}
