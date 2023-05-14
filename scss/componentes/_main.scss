@@ -1,9 +1,8 @@
-.main-sec-row{
-    border: solid darken($color: $primary-color, $amount: 10) 1px;
-    background-color: darken($color: $primary-color, $amount: 3);
+h1{
+    color: $primary-color;
+    font-size: size(6);
 }
-
-.main-carousel{
-    max-height: 400px;
-    max-width: 700px;
+h3{
+    color: $secondary-color;
+    font-size: size(4);
 }
