@@ -1,18 +1,328 @@
-/* Error: expected "{".
- *    ,
- * 11 |     background-color: $primary-color;
- *    |                                     ^
- *    '
- *   scss\componentes\_body.scss 11:37  @import
- *   scss\styles.scss 11:9              root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 11 \2502      background-color: $primary-color;\d\a    \2502                                      ^\a    \2575 \a   scss\\componentes\\_body.scss 11:37  @import\a   scss\\styles.scss 11:9              root stylesheet';
+.h-1 {
+  height: 3.5px;
 }
+
+.h-2 {
+  height: 7px;
+}
+
+.h-3 {
+  height: 10.5px;
+}
+
+.h-4 {
+  height: 14px;
+}
+
+.h-5 {
+  height: 17.5px;
+}
+
+.h-6 {
+  height: 21px;
+}
+
+.h-7 {
+  height: 24.5px;
+}
+
+.h-8 {
+  height: 28px;
+}
+
+.h-9 {
+  height: 31.5px;
+}
+
+.h-10 {
+  height: 35px;
+}
+
+.w-1 {
+  width: 3.5px;
+}
+
+.w-2 {
+  width: 7px;
+}
+
+.w-3 {
+  width: 10.5px;
+}
+
+.w-4 {
+  width: 14px;
+}
+
+.w-5 {
+  width: 17.5px;
+}
+
+.w-6 {
+  width: 21px;
+}
+
+.w-7 {
+  width: 24.5px;
+}
+
+.w-8 {
+  width: 28px;
+}
+
+.w-9 {
+  width: 31.5px;
+}
+
+.w-10 {
+  width: 35px;
+}
+
+.w-1 {
+  width: 3.5px;
+}
+
+.w-2 {
+  width: 7px;
+}
+
+.w-3 {
+  width: 10.5px;
+}
+
+.w-4 {
+  width: 14px;
+}
+
+.w-5 {
+  width: 17.5px;
+}
+
+.w-6 {
+  width: 21px;
+}
+
+.w-7 {
+  width: 24.5px;
+}
+
+.w-8 {
+  width: 28px;
+}
+
+.w-9 {
+  width: 31.5px;
+}
+
+.w-10 {
+  width: 35px;
+}
+
+.p-6 {
+  padding: 21px;
+}
+
+.p-7 {
+  padding: 24.5px;
+}
+
+.p-8 {
+  padding: 28px;
+}
+
+.p-9 {
+  padding: 31.5px;
+}
+
+.p-10 {
+  padding: 35px;
+}
+
+.px-6 {
+  padding-right: 21px;
+  padding-left: 21px;
+}
+
+.px-7 {
+  padding-right: 24.5px;
+  padding-left: 24.5px;
+}
+
+.px-8 {
+  padding-right: 28px;
+  padding-left: 28px;
+}
+
+.px-9 {
+  padding-right: 31.5px;
+  padding-left: 31.5px;
+}
+
+.px-10 {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.m-6 {
+  margin: 21px;
+}
+
+.m-7 {
+  margin: 24.5px;
+}
+
+.m-8 {
+  margin: 28px;
+}
+
+.m-9 {
+  margin: 31.5px;
+}
+
+.m-10 {
+  margin: 35px;
+}
+
+.mx-6 {
+  margin-right: 21px;
+  margin-left: 21px;
+}
+
+.mx-7 {
+  margin-right: 24.5px;
+  margin-left: 24.5px;
+}
+
+.mx-8 {
+  margin-right: 28px;
+  margin-left: 28px;
+}
+
+.mx-9 {
+  margin-right: 31.5px;
+  margin-left: 31.5px;
+}
+
+.mx-10 {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.mt-6 {
+  margin-top: 21px;
+}
+
+.mt-7 {
+  margin-top: 24.5px;
+}
+
+.mt-8 {
+  margin-top: 28px;
+}
+
+.mt-9 {
+  margin-top: 31.5px;
+}
+
+.mt-10 {
+  margin-top: 35px;
+}
+
+.bts-wsp {
+  position: fixed;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: green;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.body-index {
+  background-color: #f2f2f2;
+  background-image: url(../scss/img/background-general.png);
+  background-repeat: none;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.fondo-img {
+  background-image: url(../scss/img/backgound\ family\ dog.jpg);
+  background-repeat: none;
+  min-height: 850px;
+  max-width: 1913px;
+}
+
+.index-title {
+  padding-right: 100px;
+  padding-top: 15px;
+}
+
+.index-nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: #f2f2f2;
+  font-size: 48px;
+}
+
+h3 {
+  color: #c4ae8e;
+  font-size: 32px;
+}
+
+footer {
+  background-color: #eaeaea;
+  border: solid 2px #dedede;
+}
+
+h1 {
+  color: #f2f2f2;
+  font-size: 48px;
+}
+
+h3 {
+  color: #c4ae8e;
+  font-size: 32px;
+}
+
+.index-btn {
+  border: 1px solid rgb(243, 217, 183);
+  border-radius: 20px;
+  color: rgb(243, 217, 183);
+  background-color: rgb(243, 217, 183);
+}
+.index-btn:hover {
+  background-color: #f0d0a6;
+  color: #fff;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.img-pet img {
+  max-height: 600px;
+}
+
+.svg-icon {
+  width: 60px;
+  height: 60px;
+  color: black;
+}
+
+.svg-icon-contact {
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
