@@ -3,7 +3,7 @@
     border: 1px solid $color;
     border-radius: 20px;
     color: $color;
-    background-color: rgb(243, 217, 183);
+    background-color: rgb(245, 196, 132);
     &:hover{
         background-color: darken($color, 4);
         color: #fff;
@@ -21,4 +21,13 @@
     width: $size;
     height: $size;
     color: $color;
+}
+
+@mixin box-contact{
+    max-width: 500px;
+    max-height: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 10px 0.5px rgb(110, 110, 110);
+    border: solid 1px white;
+    border-radius: 30px;
 }

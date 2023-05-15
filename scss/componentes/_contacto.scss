@@ -1,0 +1,34 @@
+.box-contact{
+    @include box-contact;
+}
+.img-aside-contact{
+    
+    img{
+        border-radius: 20px;
+        max-height: 350px;
+    }
+}
+
+.cont-relativ{
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    section{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        padding-bottom: 20px;
+    }
+    aside{
+        flex: 0 0 30%;
+        z-index: 1;
+        position: relative;
+        margin-left: 530px;
+        margin-top: 30px;
+        img{
+            max-width: 600px;
+            min-width: auto;
+        }
+    }
+}

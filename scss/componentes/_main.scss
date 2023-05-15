@@ -1,8 +1,4 @@
-h1{
-    color: $primary-color;
-    font-size: size(6);
-}
-h3{
-    color: $secondary-color;
-    font-size: size(4);
+.main-sec-row{
+    border: solid darken($color: white, $amount: 10) 1px;
+    background-color: white;
 }

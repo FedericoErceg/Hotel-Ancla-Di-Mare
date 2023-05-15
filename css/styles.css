@@ -255,14 +255,9 @@
   color: white;
 }
 
-h1 {
-  color: #f2f2f2;
-  font-size: 48px;
-}
-
-h3 {
-  color: #c4ae8e;
-  font-size: 32px;
+.main-sec-row {
+  border: solid #e6e6e6 1px;
+  background-color: white;
 }
 
 footer {
@@ -276,18 +271,27 @@ h1 {
 }
 
 h3 {
-  color: #c4ae8e;
+  color: #c99952;
   font-size: 32px;
 }
 
+.footer-title {
+  color: #e89476;
+  font-size: 32px;
+}
+
+h4 {
+  color: rgb(228, 131, 96);
+}
+
 .index-btn {
-  border: 1px solid rgb(243, 217, 183);
+  border: 1px solid rgb(253, 189, 105);
   border-radius: 20px;
-  color: rgb(243, 217, 183);
-  background-color: rgb(243, 217, 183);
+  color: rgb(253, 189, 105);
+  background-color: rgb(245, 196, 132);
 }
 .index-btn:hover {
-  background-color: #f0d0a6;
+  background-color: #fdb455;
   color: #fff;
 }
 
@@ -309,7 +313,45 @@ a {
 .svg-icon-contact {
   width: 30px;
   height: 30px;
-  color: black;
+  color: rgb(228, 131, 96);
+}
+
+.box-contact {
+  max-width: 500px;
+  max-height: 600px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 0.5px rgb(110, 110, 110);
+  border: solid 1px white;
+  border-radius: 30px;
+}
+
+.img-aside-contact img {
+  border-radius: 20px;
+  max-height: 350px;
+}
+
+.cont-relativ {
+  position: relative;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+.cont-relativ section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding-bottom: 20px;
+}
+.cont-relativ aside {
+  flex: 0 0 30%;
+  z-index: 1;
+  position: relative;
+  margin-left: 530px;
+  margin-top: 30px;
+}
+.cont-relativ aside img {
+  max-width: 600px;
+  min-width: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

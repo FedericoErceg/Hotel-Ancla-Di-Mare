@@ -48,19 +48,67 @@
             <aside class="img-pet col-12 d-flex justify-content-center">
                 <img src="./scss/img/perro-mirado.png" alt="">
             </aside>
-            <div class="main-sec-row row">
+            <div class="main-sec-row row" style="border: white;">
                 <section class="col-12 p-4 d-flex flex-column justify-content-center align-items-center">
                     <h2 class="pb-2">Sobre nosotros</h2>
                     <p style="max-width: 50%;">Nuestras mascotas son una parte importante de la familia y entendemos que la medicina preventiva es la única y mejor manera de cuidarlos. La medicina preventiva es la correcta planificación junto con el veterinario de las necesidades específicas de nuestra mascota para el futuro de manera de mantenerlas saludables. Esto es de suma importancia ya que con la buena gestión de la medicina preventiva evitamos que nuestra mascota sufra alguna patología para acudir al veterinario. Nos ayuda a una detección temprana de posibles enfermedades.</p>
                 </section>              
             </div>
+            <div id="carouselExampleIndicators" class="carousel slide" style="background-color: white">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div class="col-6 col-md-3">
+                                <img src="./scss/img/iconos/Diseño sin título (1).png" class="d-block" alt="...">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img src="./scss/img/iconos/Laboratorio (1).png" class="d-block" alt="...">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img src="./scss/img/iconos/felina (2).png" class="d-block" alt="...">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img src="./scss/img/iconos/internacion (3).png" class="d-block" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div class="col-6 col-md-3">
+                                <img src="./scss/img/iconos/cardiologia.png" class="d-block" alt="...">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img src="./scss/img/iconos/guardia.png" class="d-block" alt="...">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img src="./scss/img/iconos/clinica.png" class="d-block" alt="...">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img src="./scss/img/iconos/cirugia.png" class="d-block" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>            
         </main>
     </div>
-    <footer class="container-fluid">
-        <div class="row">
+    <footer class="container-fluid" style="border: white;">
+        <div class="row pt-4" style="background-color: white;">
           <section class="col-lg-6 col-12 order-2 order-lg-1 justify-content-center ps-5">
             <h3 style="max-width: 85%;">¿Que estas esperando para darle a tu mascota el cuidado que se merece</h3>
-            <button class="btn index-btn"><a href="#">Asociarme</a></button>
+            <button class="btn index-btn"><a href="#" style="color: grey;">Asociarme</a></button>
           </section>
           <section class="col-lg-6 col-12 order-1 order-lg-2 d-flex flex-column align-items-center mb-4 align-items-lg-end">
               <a href="" class="mx-10 px-3"><img src="./scss/img/logo-1.png" alt=""></a>
@@ -72,6 +120,7 @@
           </section>
         </div>
       </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
