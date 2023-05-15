@@ -6,7 +6,29 @@
     img{
         border-radius: 20px;
         max-height: 350px;
-        max-width: 600px;
-        min-height: auto;
+    }
+}
+
+.cont-relativ{
+    position: relative;
+    // margin-left: 100px;
+    margin-bottom: 100px;
+    left:auto;
+    section{
+        top: 0;
+        left: 0;
+        z-index: 2;
+        padding-bottom: 20px;
+    }
+    aside{
+        flex: 0 0 30%;
+        z-index: 1;
+        position: relative;
+        left: -70px;
+        margin-top: 50px;
+        img{
+            max-width: 600px;
+            min-width: auto;
+        }
     }
 }
