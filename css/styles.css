@@ -358,12 +358,25 @@ a {
   z-index: 2;
   padding-bottom: 20px;
 }
+@media screen and (max-width: 1128px) {
+  .cont-relativ section {
+    margin-bottom: 0;
+  }
+}
 .cont-relativ aside {
   flex: 0 0 30%;
   z-index: 1;
   position: relative;
   left: -70px;
   margin-top: 50px;
+}
+@media screen and (max-width: 1128px) {
+  .cont-relativ aside {
+    position: relative;
+    bottom: 25px;
+    left: 0;
+    margin-bottom: 0;
+  }
 }
 .cont-relativ aside img {
   max-width: 600px;
