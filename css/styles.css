@@ -232,6 +232,8 @@
   background-color: #f2f2f2;
   background-image: url(../scss/img/background-general.png);
   background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .body-paginas {
@@ -241,6 +243,8 @@
 .fondo-img {
   background-image: url(../scss/img/backgound\ family\ dog.jpg);
   background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
   min-height: 850px;
   max-width: 1913px;
 }
@@ -328,6 +332,7 @@ a {
 .img-aside-contact img {
   border-radius: 20px;
   max-height: 350px;
+  max-width: 600px;
   min-height: auto;
 }
 
