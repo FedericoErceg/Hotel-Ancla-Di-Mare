@@ -6,3 +6,10 @@ h3{
     color: $secondary-color;
     font-size: size(4);
 }
+.footer-title{
+    color: lighten($color: $terciary-color, $amount: 5);
+    font-size: size(4);
+}
+h4{
+    color: $terciary-color;
+}

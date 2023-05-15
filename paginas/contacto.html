@@ -10,7 +10,7 @@
     <title>Pet Health</title>
 </head>
 <body class="body-paginas">
-    <header>
+    <header class="mb-5">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html"><img src="../scss/img/logo-1.png" alt="petlogo" width="68" height="60"></a>
@@ -36,36 +36,38 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid">
-      <div class="row">
-        <section class="col-lg-6">
-          <div class="d-flex  justify-content-center">
+    <!-- main -->
+    <main class="cont-relativ container-fluid">
+      <div class="row flex-lg-row align-items-stretch">
+        <!-- section -->
+        <section class="box-contact col-lg-6 g-0 ms-5">
+          <div class="d-flex justify-content-center pb-3">
             <h3>Atencion al Socio</h3>
           </div>
-          <div class="titel-contact d-flex justify-content-center">
+          <div class="titel-contact ms-5">
             <h4>Whatsapp</h4>
           </div>
           <div class="row">
-            <div class="col-12 d-flex flex-row justify-content-center">
+            <div class="col-12 d-flex flex-row ms-3">
               <img class="svg-icon-contact me-2" src="../scss/img/svg/whatsapp.svg" alt="">
               <p>11 5654-3541</p>
             </div>
           </div>
-          <div class="titel-contact d-flex justify-content-center">
+          <div class="titel-contact ms-5">
             <h4>Telefono</h4>
           </div>
           <div class="row">
-            <div class="col-12 d-flex flex-row justify-content-center">
+            <div class="col-12 d-flex flex-row ms-3">
               <img class="svg-icon-contact me-2" src="../scss/img/svg/phone.svg" alt="">
               <p>011 6945-2558</p>
             </div>
           </div>
-          <div class="titel-contact d-flex justify-content-center">
+          <div class="titel-contact ms-5">
             <h4>Direccion de Correo</h4>
           </div>
           <div class="row">
-            <div class="col-12 d-flex flex-row justify-content-center">
-              <img class="svg-icon-contact me-2" src="../scss/img/svg/phone.svg" alt="">
+            <div class="col-12 d-flex flex-row ms-3">
+              <img class="svg-icon-contact me-2" src="../scss/img/svg/envelope.svg" alt="">
               <p>info@pethealt.com.ar</p>
             </div>
           </div>
@@ -75,14 +77,24 @@
               <h5>¿Que estas esperando para asociarte?</h5>
             </div>
           </div>
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <button class="btn index-btn me-3"><a href="#">Contactarse</a></button>
+              <button class="btn index-btn"><a href="#">Blog</a></button>
+            </div>
+          </div>
         </section>
+        <!-- aside -->
+        <aside class="img-aside-contact col-lg-6 g-0 order-lg-last d-none d-md-none d-lg-block">
+          <img src="../scss/img/chica del conejo 400-600.jpg" alt="">
+        </aside>
       </div>
     </main>
-
-    <footer class="container-fluid">
+    <!-- footer -->
+    <footer class="footer-container container-fluid mt-5">
       <div class="row">
         <section class="col-lg-6 col-12 order-2 order-lg-1 justify-content-center ps-5">
-          <h3 style="max-width: 85%;">¿Que estas esperando para darle a tu mascota el cuidado que se merece</h3>
+          <h3 class="footer-title" style="max-width: 85%;">¿Que estas esperando para darle a tu mascota el cuidado que se merece</h3>
           <button class="btn index-btn"><a href="#">Asociarme</a></button>
         </section>
         <section class="col-lg-6 col-12 order-1 order-lg-2 d-flex flex-column align-items-center mb-4 align-items-lg-end">
