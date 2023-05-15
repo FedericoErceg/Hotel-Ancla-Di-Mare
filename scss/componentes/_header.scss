@@ -1,6 +1,6 @@
 .fondo-img{
     background-image: url(../scss/img/backgound\ family\ dog.jpg);
-    background-repeat: none;
+    @include bg-img;
     min-height: 850px;
     max-width: 1913px;
 }

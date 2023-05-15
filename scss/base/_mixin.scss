@@ -1,3 +1,8 @@
+@mixin bg-img{
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+}
 // Botones
 @mixin index-btn($color){
     border: 1px solid $color;
