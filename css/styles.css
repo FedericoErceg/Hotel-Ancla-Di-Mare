@@ -787,12 +787,30 @@ a {
   max-width: 1913px;
 }
 
-.box-planes {
+.box-cartas-1 {
   max-width: 400px;
   max-height: 600px;
   background-color: white;
   box-shadow: 2px 2px 10px 0.5px rgb(110, 110, 110);
-  border: solid 1px white;
+  border: solid 5px gold;
+  border-radius: 30px;
+}
+
+.box-cartas-2 {
+  max-width: 400px;
+  max-height: 600px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 0.5px rgb(110, 110, 110);
+  border: solid 5px rgb(141, 141, 141);
+  border-radius: 30px;
+}
+
+.box-cartas-3 {
+  max-width: 400px;
+  max-height: 600px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 0.5px rgb(110, 110, 110);
+  border: solid 5px rgb(182, 100, 24);
   border-radius: 30px;
 }
 

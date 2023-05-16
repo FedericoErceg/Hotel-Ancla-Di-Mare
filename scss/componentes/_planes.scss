@@ -2,7 +2,29 @@
     background-image: url(../scss/img/background-planes.jpg);
     @include bg-img (650px);
 }
+@mixin box-cartas ($max-width, $max-height, $border-color){
+    max-width: $max-width;
+    max-height: $max-height;
+    background-color: white;
+    box-shadow: 2px 2px 10px 0.5px rgb(110, 110, 110);
+    border: solid 5px $border-color;
+    border-radius: 30px;
+}
+.box-cartas-1{
+    @include box-cartas (400px, 600px, gold)
+}
+.box-cartas-2{
+    @include box-cartas (400px, 600px, rgb(141, 141, 141))
+}
+.box-cartas-3{
+    @include box-cartas (400px, 600px, rgb(182, 100, 24))
+}
+.bg-gold{
+    
+}
+.bg-silver{
 
-.box-planes{
-    @include box-contact (400px, 600px);
+}
+.bg-bronce{
+
 }
