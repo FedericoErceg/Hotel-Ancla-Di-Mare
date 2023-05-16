@@ -5,7 +5,3 @@
 .svg-icon-contact{
     @include svg-icon(30px, $terciary-color)  
 }
-
-.check{
-    @include svg-icon(20px, $secondary-color)
-}
