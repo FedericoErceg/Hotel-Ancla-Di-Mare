@@ -1,0 +1,8 @@
+.background-img-planes{
+    background-image: url(../scss/img/background-planes.jpg);
+    @include bg-img (650px);
+}
+
+.box-planes{
+    @include box-contact (400px, 600px);
+}

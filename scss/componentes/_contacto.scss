@@ -1,42 +1,49 @@
 .box-contact{
-    @include box-contact;
+    @include box-contact (500px, 600px);
 }
-.img-aside-contact{
-    
-    img{
-        border-radius: 20px;
-        max-height: 350px;
+@mixin media-relative ($top, $z-index){
+    position: relative;
+    z-index: $z-index;
+    top: $top;
+}
+
+.fila-cont{
+    position: relative;
+    section{
+        box-sizing: border-box;
+        position: relative;
+        z-index: 2;
+        padding-bottom: 20px;
+    }
+    aside{
+        position: relative;
+        z-index: 1;
+        top: 0px;
+        right: 40px;
+        @media screen and (max-width: 1399px) {
+            @include media-relative (15px, 1);
+        }
+        @media screen and (max-width: 1199px) {
+            @include media-relative (50px, 1);
+        }
+        @media screen and (max-width: 991px) {
+            @include media-relative (50px, 1);
+            img{
+                max-width: 450px;
+            }
+        }
+        @media screen and (max-width: 832px) {
+            @include media-relative (50px, 1);
+            img{
+                max-width: 400px;
+            }
+        }
     }
 }
 
-.cont-relativ{
-    position: relative;
-    margin-bottom: 100px;
-    left:auto;
-    section{
-        top: 0;
-        left: 0;
-        z-index: 2;
-        padding-bottom: 20px;
-        @media screen and (max-width: 1128px){
-            margin-bottom: 0;
-        }
-    }
-    aside{
-        flex: 0 0 30%;
-        z-index: 1;
-        position: relative;
-        left: -70px;
-        margin-top: 50px;
-        @media screen and (max-width: 1128px){
-            position: relative;
-            bottom: 25px;
-            left: 0;
-            margin-bottom: 0;
-        }
-        img{
-            max-width: 600px;
-            min-width: auto;
-        }
+.img-cont{
+
+    img{
+        border-radius: 20px;
     }
 }

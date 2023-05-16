@@ -1,8 +1,6 @@
 .fondo-img{
     background-image: url(../scss/img/backgound\ family\ dog.jpg);
-    @include bg-img;
-    min-height: 850px;
-    max-width: 1913px;
+    @include bg-img (850px);
 }
 .index-title{
     padding-right: 100px;
