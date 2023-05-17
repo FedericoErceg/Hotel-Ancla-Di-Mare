@@ -793,6 +793,14 @@ h6 {
   font-size: 24px;
 }
 
+th {
+  font-size: 20.8px;
+}
+
+tr td {
+  font-size: 18px;
+}
+
 .index-btn {
   border: 1px solid rgb(253, 189, 105);
   border-radius: 20px;
