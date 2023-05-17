@@ -1,8 +1,4 @@
-.body-index{
-    background-color: $primary-color;
-    background-image: url(../scss/img/background-general.png);
-    @include bg-img (auto);
-}
 body{
+    font-family: map-get( $tipografia, "family");
     background-color: $primary-color;
 }

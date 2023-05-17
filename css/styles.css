@@ -98,6 +98,111 @@
   padding: 35px;
 }
 
+.py-30 {
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.py-29 {
+  padding-top: 101.5px;
+  padding-bottom: 101.5px;
+}
+
+.py-28 {
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+
+.py-27 {
+  padding-top: 94.5px;
+  padding-bottom: 94.5px;
+}
+
+.py-26 {
+  padding-top: 91px;
+  padding-bottom: 91px;
+}
+
+.py-25 {
+  padding-top: 87.5px;
+  padding-bottom: 87.5px;
+}
+
+.py-24 {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+.py-23 {
+  padding-top: 80.5px;
+  padding-bottom: 80.5px;
+}
+
+.py-22 {
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+
+.py-21 {
+  padding-top: 73.5px;
+  padding-bottom: 73.5px;
+}
+
+.py-20 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.py-19 {
+  padding-top: 66.5px;
+  padding-bottom: 66.5px;
+}
+
+.py-18 {
+  padding-top: 63px;
+  padding-bottom: 63px;
+}
+
+.py-17 {
+  padding-top: 59.5px;
+  padding-bottom: 59.5px;
+}
+
+.py-16 {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.py-15 {
+  padding-top: 52.5px;
+  padding-bottom: 52.5px;
+}
+
+.py-14 {
+  padding-top: 49px;
+  padding-bottom: 49px;
+}
+
+.py-13 {
+  padding-top: 45.5px;
+  padding-bottom: 45.5px;
+}
+
+.py-12 {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.py-11 {
+  padding-top: 38.5px;
+  padding-bottom: 38.5px;
+}
+
+.py-10 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
 .px-6 {
   padding-right: 21px;
   padding-left: 21px;
@@ -593,19 +698,6 @@
   margin-bottom: 105px;
 }
 
-.bts-wsp {
-  position: fixed;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;
-  background-color: green;
-  color: #fff;
-  border-radius: 50px;
-  font-size: 30px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 100;
-}
-
 .body-index {
   background-color: #f2f2f2;
   background-image: url(../scss/img/background-general.png);
@@ -616,10 +708,6 @@
   max-width: 1913px;
 }
 
-body {
-  background-color: #f2f2f2;
-}
-
 .fondo-img {
   background-image: url(../scss/img/backgound\ family\ dog.jpg);
   background-repeat: none;
@@ -627,6 +715,29 @@ body {
   background-size: cover;
   min-height: 850px;
   max-width: 1913px;
+}
+
+.background-img-planes {
+  background-image: url(../scss/img/background-planes.jpg);
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 650px;
+  max-width: 1913px;
+}
+
+.background-img-proposito {
+  background-image: url(../scss/img/proposito.jpg);
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 650px;
+  max-width: 1913px;
+}
+
+body {
+  font-family: "Gochi Hand";
+  background-color: #f2f2f2;
 }
 
 .index-title {
@@ -651,11 +762,11 @@ footer {
 
 h1 {
   color: #f2f2f2;
-  font-size: 48px;
+  font-size: 52px;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 h3 {
@@ -664,7 +775,7 @@ h3 {
 }
 
 .footer-title {
-  color: #e89476;
+  color: rgb(253, 189, 105);
   font-size: 32px;
 }
 
@@ -674,12 +785,12 @@ h4 {
 
 h5 {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 56px;
+  font-size: 64px;
 }
 
 h6 {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .index-btn {
@@ -696,6 +807,7 @@ h6 {
 a {
   color: white;
   text-decoration: none;
+  font-size: 17.6px;
 }
 
 .img-pet img {
@@ -721,7 +833,6 @@ a {
   box-shadow: 2px 2px 10px 0.5px rgb(110, 110, 110);
   border: solid 1px white;
   border-radius: 30px;
-  min-width: 300px;
 }
 
 .fila-cont {
@@ -776,15 +887,6 @@ a {
 
 .img-cont img {
   border-radius: 20px;
-}
-
-.background-img-planes {
-  background-image: url(../scss/img/background-planes.jpg);
-  background-repeat: none;
-  background-attachment: fixed;
-  background-size: cover;
-  min-height: 650px;
-  max-width: 1913px;
 }
 
 .box-cartas-1 {

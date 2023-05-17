@@ -1,6 +1,5 @@
 .box-contact{
     @include box-contact (500px, 600px);
-    min-width: 300px;
 }
 @mixin media-relative ($top, $z-index){
     position: relative;

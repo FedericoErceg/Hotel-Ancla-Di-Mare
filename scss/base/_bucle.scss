@@ -16,6 +16,12 @@
         padding: 3.5px * $i;
     }
 }
+@for $i from 30 through 10{
+    .py-#{$i}{
+        padding-top: 3.5px * $i;
+        padding-bottom: 3.5px * $i;
+    }
+}
 @for $i from 6 through 10{
     .px-#{$i}{
         padding-right: 3.5px * $i;

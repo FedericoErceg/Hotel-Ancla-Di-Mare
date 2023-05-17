@@ -1,0 +1,17 @@
+.body-index{
+    background-color: $primary-color;
+    background-image: url(../scss/img/background-general.png);
+    @include bg-img (auto);
+}
+.fondo-img{
+    background-image: url(../scss/img/backgound\ family\ dog.jpg);
+    @include bg-img (850px);
+}
+.background-img-planes{
+    background-image: url(../scss/img/background-planes.jpg);
+    @include bg-img (650px);
+}
+.background-img-proposito{
+    background-image: url(../scss/img/proposito.jpg);
+    @include bg-img (650px);
+}
